@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "max_func.h"
+
+int main(int argc, char *argv[]){
+  int taille=argc-1;
+  int tab[taille];
+  int i;
+  if(taille==0){
+    printf("Aucun argument");
+    
+  }ele{  
+    for(i=1;i<taille;i++){
+      tab[i]=atoi(argv[i]);
+    }
+    printf("Le maximum est : %n",max_func(tab,taille));
+  }
+  return EXIT_SUCSSES;
+}

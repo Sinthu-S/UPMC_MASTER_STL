@@ -1,0 +1,24 @@
+#define SVID_SOURCE 1
+#include <stdio.h>
+#include <stdlib.h>
+
+int remonte_pic(int n){
+  int nbProc=n;
+  pid_t pid;
+
+
+  do{
+    nbProc--;
+    pid=fork()
+      }while(nbProc > 0 && pid != 0);
+  
+}
+
+
+int main(int argc, char** argv){
+  if(argc < 2){
+      perror("manque argument");
+    exit(1);
+  }
+    nbProc=atoi(argv[1]);
+}

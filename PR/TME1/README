@@ -1,0 +1,18 @@
+TME1- Sinthujan SIVANATHAN
+23/09/2015
+
+
+bin	 :
+include	 :
+lib	 :
+obj	 :
+src	 :
+test	 :
+
+
+
+makefile :
+	 -Compilation pour obtenir le programme max_calcul
+	 -Netoyage avec clean des .o et du programme max_calcul
+	 -Gestion générique pour la compilation des .c
+	 

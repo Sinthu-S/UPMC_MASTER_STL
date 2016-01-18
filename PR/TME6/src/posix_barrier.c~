@@ -1,0 +1,59 @@
+#define SVID_SOURCE 1
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/sem.h>
+#include <time.h>
+
+
+
+int sem_id;
+
+void wait_barrier(int n){
+ struct sembuf operation;
+ operation.sem_op=-1;
+ semop(sem_id, &operation, 1);
+ operation.sem_op=0;
+ semop(sem_id, &operation, 1);
+}
+
+void process (int NB_PCS) {
+  printf ("avant barrière\n");
+  wait_barrier (NB_PCS);
+  printf ("après barrière\n");
+  exit (0);
+}
+
+
+int main(int argc, char** argv){
+  int shm, sem;
+  int nbProc, nbFils;
+  int *valAddr;
+  pid_t pid;
+ 
+
+
+  if(( shm= shm_open("shm_remonte", O_RDWR|O_CREAT, 0600))==-1){
+    perror("erreur creation shm");
+    exit(0);
+  }
+
+  
+  if(ftruncate(shm_id, sizeof(int)) == -1){
+    perror("erreur ftruncte");
+    exit(0);
+  }
+ 
+  valAddr = mmap(NULL, sizeof(int)*n, PROT_READ | PROT_WRITE, MAP_SHARED, shm_id, 0);
+  if(*valAddr<1){
+    *valAddr=1;
+  }else{
+    (*valAddr)++;
+ 
+ 
+
+ 
+
+ return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+  int i;
+
+  if(fork() != 0){
+    printf("Processus pere, entrer une valeur");
+    scanf("%d",&i);
+  }else{
+    sleep(4);
+    printf("Processus fils, valeur de i : %d", i);
+  }
+    
+}

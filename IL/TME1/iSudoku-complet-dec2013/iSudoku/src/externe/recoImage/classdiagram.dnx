@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect 9.1.2-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_g6V-cGBBEeWRi625FnfIRQ" type="Class" name="classdiagram.dnx">
+  <eAnnotations xmi:id="_g6WlgGBBEeWRi625FnfIRQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_g6WlgWBBEeWRi625FnfIRQ" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_h3zFMGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_h4TbgGBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_h4TbgWBBEeWRi625FnfIRQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h4UCkGBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h4UpoGBBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h4VQsGBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_h4We0GBBEeWRi625FnfIRQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_h4aJMGBBEeWRi625FnfIRQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_h4b-YGBBEeWRi625FnfIRQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=RecoFactory%5Bjcu%5Ename=RecoFactory.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h3zFMWBBEeWRi625FnfIRQ"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_h4clcGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_h4qn4GBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_h4qn4WBBEeWRi625FnfIRQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h4qn4mBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h4rO8GBBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h4rO8WBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_h4r2AGBBEeWRi625FnfIRQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_h4vgYGBBEeWRi625FnfIRQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_h4vgYWBBEeWRi625FnfIRQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=RecoImageBouchon%5Bjcu%5Ename=RecoImageBouchon.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4clcWBBEeWRi625FnfIRQ" x="2376" y="4092"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_h41nAGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_h43cMGBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_h43cMWBBEeWRi625FnfIRQ" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h44DQGBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h44DQWBBEeWRi625FnfIRQ" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h44qUGBBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_h44qUWBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_h47GkGBBEeWRi625FnfIRQ" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_h47toGBBEeWRi625FnfIRQ" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_h49i0GBBEeWRi625FnfIRQ" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=IReconnaissanceImage%5Bjcu%5Ename=IReconnaissanceImage.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h41nAWBBEeWRi625FnfIRQ" x="1320" y="8316"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_uYeXgGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uYe-kGBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_uYe-kWBBEeWRi625FnfIRQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uYe-kmBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uYfloGBBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uYfloWBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_uYflomBBEeWRi625FnfIRQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_uYgMsGBBEeWRi625FnfIRQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_uYgzwGBBEeWRi625FnfIRQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Contrainte%5Bjcu%5Ename=Contrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uYeXgWBBEeWRi625FnfIRQ" x="11826" y="5503" width="6600"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_u5NGAGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_u5NtEGBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_u5NtEWBBEeWRi625FnfIRQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_u5NtEmBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_u5NtE2BBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_u5NtFGBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_u5NtFWBBEeWRi625FnfIRQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_u5QJUGBBEeWRi625FnfIRQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_u5QJUWBBEeWRi625FnfIRQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u5NGAWBBEeWRi625FnfIRQ" x="12144" y="18612"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_wJ1AYGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wJ2OgGBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_wJ2OgWBBEeWRi625FnfIRQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wJ2OgmBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wJ21kGBBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wJ21kWBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_wJ21kmBBEeWRi625FnfIRQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_wJ5R0GBBEeWRi625FnfIRQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_wJ5R0WBBEeWRi625FnfIRQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GrilleDecorator%5Bjcu%5Ename=GrilleDecorator.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wJ1AYWBBEeWRi625FnfIRQ" x="20996" y="5134"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_wJ544GBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" showListStereotype="Text" showListVisibility="Text" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wJ6f8GBBEeWRi625FnfIRQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_wJ6f8WBBEeWRi625FnfIRQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wJ7HAGBBEeWRi625FnfIRQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wJ7HAWBBEeWRi625FnfIRQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_wJ7HAmBBEeWRi625FnfIRQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_wJ7uEGBBEeWRi625FnfIRQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_wJ9jQGBBEeWRi625FnfIRQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_wJ9jQWBBEeWRi625FnfIRQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GrilleContrainteCache%5Bjcu%5Ename=GrilleContrainteCache.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wJ544WBBEeWRi625FnfIRQ" x="28087" y="5372"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_iNWecGBBEeWRi625FnfIRQ" source="_h3zFMGBBEeWRi625FnfIRQ" target="_h4clcGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iNYToGBBEeWRi625FnfIRQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_iNYTomBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_iNYTpGBBEeWRi625FnfIRQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_iNYTo2BBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iNYToWBBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=RecoFactory%5Bjcu%5Ename=RecoFactory.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=RecoImageBouchon%5Bjcu%5Ename=RecoImageBouchon.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iNWecWBBEeWRi625FnfIRQ" points="[53, 100, -210, -2221]$[53, 734, -210, -1587]$[302, 734, 39, -1587]$[302, 2321, 39, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iPt18GBBEeWRi625FnfIRQ" id="(0.6666666411276087,0.9469429004547751)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iPudAGBBEeWRi625FnfIRQ" id="(0.5000598515681108,-2.1004496576741991E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_u81o0GBBEeWRi625FnfIRQ" source="_u5NGAGBBEeWRi625FnfIRQ" target="_uYeXgGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_u82P4GBBEeWRi625FnfIRQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_u8228GBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_u8228mBBEeWRi625FnfIRQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_u8228WBBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u82P4WBBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Contrainte%5Bjcu%5Ename=Contrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u81o0WBBEeWRi625FnfIRQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wNhNkGBBEeWRi625FnfIRQ" source="_u5NGAGBBEeWRi625FnfIRQ" target="_wJ1AYGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wNh0oGBBEeWRi625FnfIRQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNh0omBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNh0pGBBEeWRi625FnfIRQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNh0o2BBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNh0oWBBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GrilleDecorator%5Bjcu%5Ename=GrilleDecorator.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wNhNkWBBEeWRi625FnfIRQ" points="[32, 0, -7875, 401]$[32, 340, -7875, 741]$[7960, 340, 53, 741]$[7960, -298, 53, 103]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTaaMGBBEeWRi625FnfIRQ" id="(0.4,-4.006584589308054E-16)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTbBQGBBEeWRi625FnfIRQ" id="(0.6666813380281683,0.974169741697417)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wNibsGBBEeWRi625FnfIRQ" source="_u5NGAGBBEeWRi625FnfIRQ" target="_wJ1AYGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wNjCwGBBEeWRi625FnfIRQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNjp0GBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNjp0WBBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNjCwWBBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GrilleDecorator%5Bjcu%5Ename=GrilleDecorator.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wNibsWBBEeWRi625FnfIRQ" points="[16, 0, -7583, 401]$[16, 170, -7583, 571]$[7625, 170, 26, 571]$[7625, -298, 26, 103]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTboUGBBEeWRi625FnfIRQ" id="(0.19999999999999973,-4.006584589308054E-16)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTcPYGBBEeWRi625FnfIRQ" id="(0.3333481356891348,0.974169741697417)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wNjp0mBBEeWRi625FnfIRQ" source="_wJ544GBBEeWRi625FnfIRQ" target="_wJ1AYGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wNkQ4GBBEeWRi625FnfIRQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNkQ4mBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNkQ5GBBEeWRi625FnfIRQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNkQ42BBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNkQ4WBBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GrilleContrainteCache%5Bjcu%5Ename=GrilleContrainteCache.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GrilleDecorator%5Bjcu%5Ename=GrilleDecorator.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wNjp02BBEeWRi625FnfIRQ" points="[0, 53, 2278, 53]$[-2200, 53, 78, 53]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTddgGBBEeWRi625FnfIRQ" id="(0.0,0.4999999999999997)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTddgWBBEeWRi625FnfIRQ" id="(0.9841046277665989,0.5001230012300121)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wNk38GBBEeWRi625FnfIRQ" source="_wJ544GBBEeWRi625FnfIRQ" target="_u5NGAGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wNk38mBBEeWRi625FnfIRQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNk39GBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNlfAWBBEeWRi625FnfIRQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNlfAGBBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNk382BBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GrilleContrainteCache%5Bjcu%5Ename=GrilleContrainteCache.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wNk38WBBEeWRi625FnfIRQ" points="[53, 102, 12972, -535]$[53, 1317, 12972, 680]$[-12855, 1317, 64, 680]$[-12855, 637, 64, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTeroGBBEeWRi625FnfIRQ" id="(0.6666794256059818,0.9707520891364902)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTeroWBBEeWRi625FnfIRQ" id="(0.7999999999999995,-4.006584589308054E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wNlfAmBBEeWRi625FnfIRQ" source="_wJ544GBBEeWRi625FnfIRQ" target="_u5NGAGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wNmGEGBBEeWRi625FnfIRQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNmGEmBBEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_wNmGE2BBEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNmGEWBBEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=GrilleContrainteCache%5Bjcu%5Ename=GrilleContrainteCache.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wNlfA2BBEeWRi625FnfIRQ" points="[27, 102, 12355, -535]$[27, 1147, 12355, 510]$[-12280, 1147, 48, 510]$[-12280, 637, 48, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTf5wGBBEeWRi625FnfIRQ" id="(0.3333460922726491,0.9707520891364902)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTf5wWBBEeWRi625FnfIRQ" id="(0.6,-4.006584589308054E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_a0F8cGBCEeWRi625FnfIRQ" source="_u5NGAGBBEeWRi625FnfIRQ" target="_uYeXgGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_a0GjgGBCEeWRi625FnfIRQ" type="FromMultiplicityLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_a0GjgmBCEeWRi625FnfIRQ" type="FromMultiplicity"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_a0GjgWBCEeWRi625FnfIRQ" y="396"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_a0Gjg2BCEeWRi625FnfIRQ" type="FromRoleLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_a0HKkGBCEeWRi625FnfIRQ" type="FromRole"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_a0GjhGBCEeWRi625FnfIRQ" y="-397"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_a0HKkWBCEeWRi625FnfIRQ" type="associationTypeLabel">
+      <children xmi:id="_a0HKk2BCEeWRi625FnfIRQ" type="associationTypeCompartment"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_a0HKkmBCEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Property" href="mmi:///#jfield%5Ename=contraintes%5Bjsrctype%5Ename=GrilleContrainte%5Bjcu%5Ename=GrilleContrainte.java%5Bjpack%5Ename=iSudoku.contraintes%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Property"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a0F8cWBCEeWRi625FnfIRQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_hElqIGBCEeWRi625FnfIRQ" source="_h4clcGBBEeWRi625FnfIRQ" target="_h41nAGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hEmRMGBCEeWRi625FnfIRQ" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hEm4QGBCEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hEm4QWBCEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hEmRMWBCEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=RecoImageBouchon%5Bjcu%5Ename=RecoImageBouchon.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=IReconnaissanceImage%5Bjcu%5Ename=IReconnaissanceImage.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hElqIWBCEeWRi625FnfIRQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_hEm4QmBCEeWRi625FnfIRQ" source="_h3zFMGBBEeWRi625FnfIRQ" target="_h41nAGBBEeWRi625FnfIRQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hEnfUGBCEeWRi625FnfIRQ" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hEnfUmBCEeWRi625FnfIRQ" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hEoGYWBCEeWRi625FnfIRQ" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hEoGYGBCEeWRi625FnfIRQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hEnfUWBCEeWRi625FnfIRQ" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=RecoFactory%5Bjcu%5Ename=RecoFactory.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=IReconnaissanceImage%5Bjcu%5Ename=IReconnaissanceImage.java%5Bjpack%5Ename=externe.recoImage%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=iSudoku%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hEm4Q2BCEeWRi625FnfIRQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</umlnotation:UMLDiagram>

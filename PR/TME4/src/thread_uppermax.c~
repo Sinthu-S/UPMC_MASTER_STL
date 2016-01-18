@@ -1,0 +1,93 @@
+#define _XOPEN_SOURCE 700
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <errno.h>
+#include <pthread.h>
+
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+int indiceArgument;
+
+int upper(char *path)
+{
+    FILE* fp1, *fp2;
+    int c = 1;
+
+    fp1= fopen (path, "r");
+    fp2= fopen (path, "r+");
+    if ((fp1== NULL) || (fp2== NULL)) {
+        perror ("fopen");
+	return errno;
+    }
+
+    while (c !=EOF) {
+        c=fgetc(fp1);
+        if (c!=EOF)
+        fputc(toupper(c),fp2);
+    }
+
+    fclose (fp1);
+    fclose (fp2);
+
+    return EXIT_SUCCESS;
+}
+
+void* funcThread(void* arg){
+  unsigned int tid=(unsigned int)pthread_self();
+  int indice;
+  char** tab=(char**)arg;
+  printf("Debut tid %u %s \n", tid, *(char**)arg);
+  pthread_mutex_lock(&mutex);
+  while(indiceArgument>2){ // argument 1 etant le nombre de thread
+     indice= indiceArgument--;
+    pthread_mutex_unlock(&mutex);
+    
+    upper(tab[indice]);
+    
+    pthread_mutex_lock(&mutex); 
+  }
+  pthread_mutex_unlock(&mutex);
+    
+  
+  printf("Fin tid %u \n",tid);  
+}
+
+
+int main(int argc, char** argv){
+  
+  indiceArgument = argc-1;
+ 
+  int i=atoi(argv[1]);
+  int nbThread=i;
+  pthread_t tid[i];
+  
+  if(argc < 3){
+     perror("nombre d'argument insuffisant");
+     exit(1);
+  }
+
+  
+  
+  printf("nb argument %d %d\n  ",argc, i);
+  while(i>0){
+      printf("%d\n  ", i);
+      if(pthread_create(&tid[i], NULL, funcThread, (void*)argv) != 0){
+      perror("erreur creation thread");
+     
+    }
+    i--;
+  }
+  
+   printf("%d\n  ", i);
+  
+  while(i<nbThread){
+    if(pthread_join(tid[i],NULL) != 0){
+       perror("erreur attente thread");
+  
+    }
+    i++;
+  }
+ 
+  return 0;
+}

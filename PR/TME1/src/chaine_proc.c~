@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int chaine_processus(int nb){
+  pid_t listPID[nb];
+  pid_t fils;
+  int nbPID=1;
+  int i;
+  boolean pere=false;
+  listPID[0]=getpid();
+
+  while(!pere){
+    if((fils=fork())==0){
+      list[nbPID]=getpid();
+      if(++nbPID==0){
+	for(i=nb-1;i>-1;i++){
+	  printf("Pid fils : %d\n",listPID[i]);
+	}
+	return EXIT_SUCCESS;
+      }
+    }else{
+      wait(NULL);
+      printf("Mon pid : %d \n Pere pid : %d \n Fils pid : %d\n",getpid(),getppid(),fils);
+      return EXIT_SUCCESS;
+    }
+  
+  }
+}

@@ -1,0 +1,113 @@
+#define _SVID_SOURCE 1
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
+#include <time.h>
+
+struct msqid_ds buf;
+
+struct message_pere{
+  long id;
+  int msgFils_id;
+  int nbMess;
+}msgPere;
+
+struct message_fils{
+  long id;
+  int val;
+}msgFils;
+
+
+int main(int argc, char** argv){
+
+ key_t cle;
+ int msgPere_id, msgFils_id;
+ int nbProc;
+ int nbFils, nbMessage;
+ int sum=0;
+ pid_t pid;
+ msgPere.id=1;
+ msgFils.id=2;
+
+ printf("\n\n Debut de programme \n\n");
+ if(argc < 2){
+     perror("manque argument");
+   exit(1);
+ }
+
+ nbProc=atoi(argv[1]);
+ nbFils=nbProc;
+
+ cle = ftok(argv[0], (char)getpid());
+ if(( msgPere_id = msgget(cle, 0666 | IPC_CREAT))==-1){
+   perror("erreur recup id file de message");
+   exit(0);
+ }
+
+
+ do{
+   nbProc--;
+   pid=fork();
+ }while(nbProc > 0 && pid != 0);
+
+ if(pid == 0){
+
+   cle = ftok(argv[0], (char)getpid());
+   if(( msgFils_id = msgget(cle, 0666 | IPC_CREAT))==-1){
+     perror("erreur recup id file de message");
+     exit(0);
+   }
+
+   srand(getpid());
+   msgPere.nbMess=(int) (10*(float)rand()/ RAND_MAX);
+   msgPere.msgFils_id=msgFils_id;
+
+   
+   if(msgsnd(msgPere_id , &msgPere, sizeof(int)*2,0) == -1){
+     perror("erreur lecture msg");
+     exit(0);
+   }
+
+   while(msgPere.nbMess >0){
+     
+     if(msgrcv(msgFils_id, &msgFils, sizeof(int), 2, 0) == -1){
+       perror("erreur envoie msg");
+       exit(0);
+     }
+
+     sum += msgFils.val;
+     msgPere.nbMess--;
+     printf("----->Valeur recu  %d pid %d\n", msgFils.val,getpid());
+   }
+   
+   printf("----->Somme des valeurs   %d pid %d\n", sum, getpid());
+   
+   msgctl(msgFils_id, IPC_RMID,NULL);
+  
+   return 0;
+ }else{
+ 
+   while(nbFils>0){
+     if(msgrcv(msgPere_id , &msgPere, sizeof(int)*2, 1,0) == -1){
+       perror("erreur lecture msg");
+       exit(0);
+     }
+     for(nbMessage=msgPere.nbMess; nbMessage<0; nbMessage--){
+       srand(getpid());
+       msgFils.val=(int) (10*(float)rand()/ 100);
+       if(msgsnd(msgPere.msgFils_id, &msgFils, sizeof(int), 0) == -1){
+	      perror("erreur envoie msg");
+	 exit(   0);
+       }
+       printf("----->Valeur envoyee  %d pid %d\n", msgFils.val, getpid());
+     }
+     nbFils--;
+   }
+      
+   msgctl(msgPere_id, IPC_RMID,NULL);   
+ }
+   
+ return 0;
+}

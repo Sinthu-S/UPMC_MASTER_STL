@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int nfork(int nb_fils){
+  int nb=0;
+  while(nb_fils>0){
+    if(fork()==0){
+      return 0;
+    }else{
+      nb++;
+    }
+  }
+}
