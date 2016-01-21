@@ -4,22 +4,21 @@
  * GPL version>=3 <http://www.gnu.org/licenses/>.
  * $Id: RBB_collision.html 2014-01-28 buixuan $
 //-->
-
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8"/>
-<head>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8">
+
 <style type="text/css">
 #main_window{
 background-color:#f5f5f5;
 border:1px solid #e5e5e5;
 }
 </style>
-</head>
+<script src="RBB_collision_canevas_files/RBB_collision.js"></script></head>
 <body>
   <canvas id="main_window" width="800" height="400"></canvas>
-</body>
-</html>
+
+
 
 <script type="text/javascript">
     var callback = function() {setInterval(on_enter_frame,30);}
@@ -49,24 +48,34 @@ border:1px solid #e5e5e5;
     //  revoie true ssi le cercle intersecte la bordure
     //  gauche de la fenêtre courrante
     function collisionLeftBorder(circle){
-
-      return circle.radius > circle.x;
-
+    /*******************
+     * PARTIE A ECRIRE */
+      return false;
+    /*******************/
     }
 
     //collisionRightBorder: Cercle --> boolean
     function collisionRightBorder(circle){
-      return ( circle.x + circle.radius ) > main_window.width;
+    /*******************
+     * PARTIE A ECRIRE */
+      return false;
+    /*******************/
     }
     
     //collisionTopBorder: Cercle --> boolean
     function collisionTopBorder(circle){
-       return circle.radius > circle.y; 
+    /*******************
+     * PARTIE A ECRIRE */
+      return false;
+    /*******************/
     }
 
     //collisionBottomBorder: Cercle --> boolean
     function collisionBottomBorder(circle){
-     return ( circle.y + circle.radius ) > main_window.height;
+    /*******************
+     * PARTIE A ECRIRE */
+      return false;
+    /*******************/
     }
 
 /******************************************************
@@ -86,8 +95,10 @@ border:1px solid #e5e5e5;
     //collisionCircles: Cercle * Cercle --> boolean
     //  revoie true ssi les deux cercles s'intersectent
     function collisionCircles(c1,c2){
-      return (c1.x - c2.x)*(c1.x - c2.x) + (c1.y - c2.y)*(c1.y - c2.y) < 
-            (c1.radius + c2.radius)*(c1.radius + c2.radius);
+    /*******************
+     * PARTIE A ECRIRE */
+      return false;
+    /*******************/
     }
 
 /****************************************************
@@ -113,8 +124,10 @@ border:1px solid #e5e5e5;
     //collisionCircleBox: Cercle * Rectangle --> boolean
     //  revoie true ssi les deux objets s'intersectent
     function collisionCircleBox(circle,box){
-    
-      
+    /*******************
+     * PARTIE A ECRIRE */
+      return false;
+    /*******************/
     }
 
 /****************************************************
@@ -156,3 +169,4 @@ border:1px solid #e5e5e5;
     }
 
 </script>
+</body></html>
